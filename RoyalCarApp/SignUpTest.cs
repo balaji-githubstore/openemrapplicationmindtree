@@ -15,7 +15,6 @@ namespace RoyalCarApp
     {
         public static object[] ValidCredentialSource()
         {
-            Console.WriteLine();
             object[] main = ExcelUtils.GetSheetIntoObject(@"D:\Mine\Company\Mindtree\Stream Track - 2020\OpenEMRApplication\OpenEMRApplication\TestData\OpenEMRData.xlsx", "ValidCredentialSource");
             return main;
         }
