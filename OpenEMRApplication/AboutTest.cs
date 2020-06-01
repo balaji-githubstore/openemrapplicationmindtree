@@ -17,7 +17,6 @@ namespace OpenEMRApplication
         [Test]
         public void VersionNumberTest()
         {
-
             LoginPage login = new LoginPage(driver);
 
             login.SendUsername("admin");
