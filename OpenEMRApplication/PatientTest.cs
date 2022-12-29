@@ -17,7 +17,6 @@ namespace OpenEMRApplication
         [Test,Category("high"),Category("patient")]
         public void AddPatientTest()
         {
-
             LoginPage login = new LoginPage(driver);
 
             login.SendUsername("admin");
